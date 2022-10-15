@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: valorant;
+    src: url(../fonts/valorant/ValorantFont.ttf);
+}
+
+@font-face {
+    font-family: Tungsten-Bold;
+    src: url(../fonts/TungstenBold.ttf)
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato/Lato-Black.ttf)
+}
+
+.navbar
+{
+    background-color: rgb(17, 17, 17);
+}
+
+.nav li a{
+    text-align: center;
+    /* margin: 20px; */
+    text-decoration: none;
+    color: #f0f0f0;
+    margin-left: 155px;
+    font-size: 20px;
+    font-family: Lato-Black, sans-serif;
+    transition: 0.3;
+}
+
+.nav li a:hover
+{
+    color: hsla(355, 100%, 64%, 1);
+}
+
+.nav
+{
+    margin-right: 70px;
+}
+
+.navbar-brand img
+{
+    margin-left: 15px;
+}
+
+.btn
+{
+     margin-right: 15px;
+}
+
+.game button h5
+{
+    font-family: Lato-Black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.back
+{
+    background-color: rgb(17, 17, 17);
+    width: 1920px;
+    height: 1080px;
+}
