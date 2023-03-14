@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    background-color: #111111;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: valorant;
+    src: url(../fonts/valorant/ValorantFont.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato/Lato-Black.ttf)
+}
+
+.navbar
+{
+    background-color: rgb(17, 17, 17);
+}
+
+.nav
+{
+    margin-right: 70px;
+}
+
+.nav li a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #f0f0f0;
+    margin-left: 155px;
+    font-size: 20px;
+    font-family: Lato-Black, sans-serif;
+}
+
+.nav li a:hover
+{
+    color: hsla(355, 100%, 64%, 1);
+}
+
+.navbar-brand img
+{
+    margin-left: 15px;
+}
+
+.btn
+{
+    margin-right: 15px;
+}
+
+.game button h5
+{
+    font-family: Lato-Black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.carousel-caption .btnag
+{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    top: -25px;
+    box-shadow: 0px 0px 0px 1px #f0f0f0;
+    background-color: rgb(17, 17, 17);
+    padding-top: 10px;
+    transition: 0.3s;
+    border-radius: 2px;
+    cursor: auto;
+}
+
+.carousel-caption .btnag h5
+{
+    position: relative;
+    color: hsla(355, 100%, 64%, 1);
+    font-family: valorant, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    top: -2px;
+}
+
+.carousel-caption .btnag:hover{
+   transform: translateY(-10px);
+   filter: drop-shadow(15px 10px 5px rgb(53, 5, 6));
+   color: #f0f0f0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ff4654;
+    color: #ff4654;
+    border-radius: 10%;
+}
+
+.pre
+{
+    background-color: rgb(17, 17, 17);
+    width: 10000px;
+    height: 200px;
+}
