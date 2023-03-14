@@ -82,6 +82,7 @@ body
     padding-top: 10px;
     transition: 0.3s;
     border-radius: 2px;
+    cursor: none;
 }
 
 .carousel-caption .btnag h5
