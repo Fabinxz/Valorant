@@ -81,7 +81,6 @@ body
     background-color: rgb(17, 17, 17);
     padding-top: 10px;
     transition: 0.3s;
-    cursor: pointer;
     border-radius: 2px;
 }
 
